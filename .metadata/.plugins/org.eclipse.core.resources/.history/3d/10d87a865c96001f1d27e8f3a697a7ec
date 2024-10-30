@@ -96,7 +96,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	 for(int i = 0; i <100; i++)
-		 u32Data++;
 
     /* USER CODE BEGIN 3 */
   }
