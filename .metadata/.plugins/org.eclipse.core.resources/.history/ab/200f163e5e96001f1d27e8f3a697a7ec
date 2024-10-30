@@ -58,18 +58,17 @@ void vExec_main(void);
 
 void vExec_main(void)
 {
-	uint32_t u32Data;
+	uintt32_t u32Data;
 
-	for(int i = 0; i <100; i++)
-		u32Data++;
+	 for(int i = 0; i <100; i++)
+		 u32Data++;
+	 for(int i = 0; i <100; i++)
+		 u32Data--;
 
-	for(int i = 0; i <100; i++)
-		u32Data--;
-
-	for(int i = 0; i <100; i++)
-		u32Data++;
-	for(int i = 0; i <100; i++)
-		u32Data--;
+	 for(int i = 0; i <100; i++)
+		 u32Data++;
+	 for(int i = 0; i <100; i++)
+		 u32Data--;
 }
 
 /* USER CODE END 0 */
